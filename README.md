@@ -5,6 +5,7 @@ at [SOSP'19](https://sosp19.rcs.uwaterloo.ca).
 
 This tutorial is based on our SOSP'19 paper,
 [Scaling symbolic evaluation for automated verification of systems code with Serval](https://unsat.cs.washington.edu/papers/nelson-serval.pdf).
+You may find the slides under the [slides/](slides/) directory.
 
 It requires that you have the following prerequisite
 tools installed:
@@ -418,7 +419,7 @@ states.
 
 This example shows one way of using Serval's RISC-V verifier
 to prove correct a simple system. If you're interested in the details,
-you can look in the `serval/` directory to see how the verifiers
+you can look in the [serval/](serval/) directory to see how the verifiers
 and optimizations are implemented; and even choose to extend a verifier
 or implement a new one yourself.
 
